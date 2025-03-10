@@ -247,7 +247,7 @@ for i = 1:length(q_vec)
     p = (k_avg - 2*q) / (1 + k_avg - 2*q);
 
     % define mesh of m and rho values
-    [m, rho] = meshgrid(-1:0.05:1, 0.001:0.05:0.501);
+    [m, rho] = meshgrid(-1:0.1:1, 0.001:0.1:0.501);
 
     % evaluate dm/dt and drho/dt vectors over mesh for current p and q
     dm = dm_dt(p, q, rho, 0.5.*(1+m), 0.5.*(1-m));
