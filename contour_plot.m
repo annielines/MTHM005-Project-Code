@@ -50,7 +50,7 @@ for i = 1:length(p_values)
 
         else
 
-            % substitue p and q to numerically evaluate jacobian
+            % substitute p and q to numerically evaluate jacobian
             J_steady_state_num = double(subs(J_steady_state, [p, q, k_avg], [p_value, q_value, k_value]));
 
             % numerically evaluate eigenvalues of jacobian
@@ -67,8 +67,7 @@ end
 
 % define contour levels centred around 0
 contour_levels = unique([linspace(-2, 0, 8), linspace(0, 0.2, 8)]);
-% made these more precise above 0 since (magnitudes of positive max
-% eigenvalues are smaller than negative ones)
+% made these more precise above 0 since (magnitudes of positive max eigenvalues are smaller than negative ones)
 % 'unique' so zero is only included once
 
 figure;
