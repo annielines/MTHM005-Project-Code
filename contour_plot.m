@@ -67,7 +67,7 @@ end
 
 % define contour levels centred around 0
 contour_levels = unique([linspace(-2, 0, 8), linspace(0, 0.2, 8)]);
-% madee these more precise above 0 since (magnitudes of positive max
+% made these more precise above 0 since (magnitudes of positive max
 % eigenvalues are smaller than negative ones)
 % 'unique' so zero is only included once
 
