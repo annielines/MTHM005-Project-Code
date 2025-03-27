@@ -1,4 +1,4 @@
-This repository contains all the code developed and used in MTHM005 Project Report. The files corresponding to each figure have been outlined below.
+This repository contains all the code developed and used in the MTHM005 Project Report. The files corresponding to each figure have been outlined below.
 
 ### Figures in the Main Report:
 - Figure 2: produced using contour_plot.m.
